@@ -1,6 +1,4 @@
 ## The Config For Alacritty and Fish
-
-[fish](./fish/)
-
-[Alacritty](./alacritty/)
+- [fish](./fish/)
+- [Alacritty](./alacritty/)
 
