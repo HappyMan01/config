@@ -5,10 +5,11 @@ set -gx TERM xterm-256color
 set JAVA_HOME /home/hp/.config/jdk-17.0.5
 set CLASSPATH %JAVA_HOME%/lib:%JAVA_HOME%/jre/lib
 set MAVEN_HOME "/opt/maven"
-set JDTLS_HOME "/usr/share/java/jdtls"
+set JDTLS_HOME "/home/hp/.local/share/nvim/mason/packages/jdtls/"
 set JDTLS_RUN_JAVA /home/hp/.config/jdk-17.0.5/bin/java
 set PATH $PATH:$JAVA_HOME/bin:$JAVA_HOME/jre/bin
-export PATH CLASSPATH JAVA_HOME JDTLS_HOME JDTLS_RUN_JAVA
+set WORKSPACE $HOME/Workspace/ # 不设置则默认是$HOME/workspace
+export PATH CLASSPATH JAVA_HOME JDTLS_HOME JDTLS_RUN_JAVA MAVEN_HOME
 
 # theme
 set -g theme_color_scheme terminal-dark
